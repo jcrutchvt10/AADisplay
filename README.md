@@ -7,30 +7,43 @@
 ![Android SDK min 31](https://img.shields.io/badge/Android%20SDK-%3E%3D%2031-brightgreen?logo=android)
 ![Android SDK target 33](https://img.shields.io/badge/Android%20SDK-target%2033-brightgreen?logo=android)
 
-Please do not post any AADisplay tutorial-related videos and pictures in public places, otherwise I will stop updating in regions other than China.
+Please do not post any AADisplay tutorial-Please do not post any AADisplay tutorial-related videos and pictures in public places, otherwise I will stop updating in regions other than China.
 
-让Android Auto显示任意应用, 基于VirtualDisplay的套娃方案, Star! Star! Star!
+Let Android Auto display any application, based on VirtualDisplay's nesting doll solution, Star! Star! Star!
 
-仅支持A12+, 需LSPosed, 部分ROM可能存在崩的可能性, 请自备救机的常识.
+Only supports A12+, requires LSPosed, some ROMs may crash, please prepare your own common sense to save the phone.
 
-理论可以支持到A10+, 由于没有设备和过多精力维护, 所以没有支持, 如有能力自行PR.
+Theoretically, it can support A10+, but due to lack of equipment and too much energy for maintenance, there is no support. If you have the ability, you can PR by yourself.
 
-与本项目无关的问题请勿提交Issue, 必关! 例如: Magisk/LSPosed环境安装, AA无法连接/使用 等等相关的问题.
+Please do not submit issues that are not related to this project. They must be closed! For example:
 
------
+Magisk/LSPosed environment installation, AA cannot be connected/used, etc.
 
-## 使用方法
-- LSPosed开启本模块,勾选System Framework和Android Auto,安装你喜爱的启动器,并在模块设置中填写包名.
-- 建议设置Dpi,会对使用应用上下文绘制UI的叼毛应用得到改善.
-- 添加Properties AA相关参数,可对AA的配置进行Hook修改,仅支持基础类型参数.
-- 自动绕过Android Auto对AA应用本身安装来源的检测.
-- Root权限仅对用户配置的Shell命令执行使用,若无需求可不给.
+favorite launcher, and fills in the package name in the module settings.
 
-## 免责声明
-- 使用本模块即代表自愿承担一切后果, 包括但不限于 设备损坏, 驾车事故.
-- 任何由本项目衍生出的项目, 本项目不承担任何责任.
-- 本项目保证永久开源, 欢迎提交 Issue 或者 PR, 但请不要提交用于非法用途的功能.
-- 开发者可能在任何时间**停止更新**或**删除项目**
+- It is recommended to set DPI, which will improve the performance of apps that use app context to draw UI.
+
+26
+
+27
+
+- Added Properties AA related parameters, which can be used to modify the AA configuration by hook, and only supports basic type parameters.
+
+28 - Automatically bypass Android Auto's detection of the installation source of the AA app itself.
+
+29
+
+- Root permissions are only used for Shell command execution configured by the user, and can be omitted if there is no need.
+
+30
+
+31
+
+## Disclaimer
+
+32
+
+Using this module means that you are willing to bear all consequences, including but not limited to equipment damage**
 
 ## 用爱发电
 [捐赠 Donation](https://afdian.com/a/nitsuya)
